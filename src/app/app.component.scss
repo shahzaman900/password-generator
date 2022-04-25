@@ -1,0 +1,40 @@
+.password-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+input {
+    padding: 0.5rem;
+    border-color: grey;
+    border-radius: 0.2rem;
+    background-color: rgba(128, 128, 128, 0.021);
+}
+
+input:focus {
+    background-color: rgba(210, 255, 213, 0.295);
+    border-color: green;
+}
+
+button {
+    padding: 1rem;
+    background-color: rgb(82, 192, 82);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+checkbox {
+    padding: 0.5rem;
+}
