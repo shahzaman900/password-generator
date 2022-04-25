@@ -35,6 +35,10 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
-checkbox {
-    padding: 0.5rem;
+button:disabled {
+    background-color: rgb(211, 211, 211);
 }
+
+// checkbox {
+//     padding: 0.5rem;
+// }
